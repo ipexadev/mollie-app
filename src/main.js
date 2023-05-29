@@ -37,6 +37,7 @@ function checkForUpdates() {
     autoUpdater.on('update-not-available', () => {
         dialog.showMessageBox({
             title: 'No updates',
+            icon: path.join(__dirname, '../assets/icons/app_icon.png'),
             message: 'You are running the latest version of the app.'
         });
     });
@@ -46,6 +47,7 @@ function checkForUpdates() {
         dialog.showMessageBox({
             type: 'info',
             title: 'Update downloaded',
+            icon: path.join(__dirname, '../assets/icons/app_icon.png'),
             message: 'The update has been downloaded. Restart the app to install the latest version.',
             buttons: ['Restart', 'Later']
         }).then((result) => {
