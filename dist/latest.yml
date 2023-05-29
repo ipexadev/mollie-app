@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: Mollie-Desktop-Setup-1.0.0.exe
+    sha512: U1sx/F6wKL6Y9ntq02TN1yCux1/KgZYhZSPwRl0ZycYs1Dtg9OmR0pd3vp0+fVu8ZdMj7UGzFmgwdiszwsJyaA==
+    size: 62390807
+path: Mollie-Desktop-Setup-1.0.0.exe
+sha512: U1sx/F6wKL6Y9ntq02TN1yCux1/KgZYhZSPwRl0ZycYs1Dtg9OmR0pd3vp0+fVu8ZdMj7UGzFmgwdiszwsJyaA==
+releaseDate: '2023-05-29T22:14:36.036Z'
